@@ -7,16 +7,14 @@
   border-radius: 0.5rem;
   height: 2.5rem;
   width: 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-cards a:hover {
+  background-color: #eee;
 }
 
 .social-cards img {
   height: 50%;
-  filter: invert(1);
   /* generate filter for paint svg: https://codepen.io/sosuke/pen/Pjoqqp */
-}
-
-@media (prefers-color-scheme: light) {
-  .social-cards img {
-    filter: invert(0);
-  }
 }

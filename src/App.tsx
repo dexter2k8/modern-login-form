@@ -37,6 +37,7 @@ function App() {
             <p>Enter your personal details to use all of site features</p>
             <button onClick={() => setIsSignIn(false)}>Sign In</button>
           </div>
+
           <div className="toggle-panel toggle-right">
             <h1>Hello, Friend!</h1>
             <p>
